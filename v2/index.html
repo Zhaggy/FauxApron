@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="./assets/images/favicon.ico"
+        />
+        <!-- Google Fonts (Montserrat:regular and 700) -->
+        <link
+            rel="preload"
+            href="https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2"
+            as="font"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2"
+            as="font"
+            crossorigin
+        />
+        <style>
+            @font-face {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: local("Montserrat Regular"), local("Montserrat-Regular"),
+                    url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+                        format("woff2");
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            @font-face {
+                font-family: 'Montserrat-Bold';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url("https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD_vx3rCs.woff2") format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+        </style>
+
+        <title>
+                GoApron — First automated aircraft parking software
+        </title> 
+        <link rel="stylesheet" href="./assets/styles/style.css" />
+    </head>
+    <body>
+        <!-- Navbar and background -->
+        <nav id="navbar" class="navbar navbar-expand-sm sticky-top py-3 px-4">
+            <a class="navbar-brand" href="#"
+                ><img alt="Logo" src="./assets/images/goapron_logo.svg"
+            /></a>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-4">
+                        <a class="nav-link" href="#how-it-works"
+                            >How it works</a
+                        >
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="background-opaque-cover" class="no-scroll"></div>
+
+        <!-- Website Content -->
+        <main id="main" data-spy="scroll" data-target="#navbar" data-offset="0">
+            <!-- Section 1: SPLASH -->
+            <div id="splash">
+                <div id="splash-title" class="container mx-auto mx-md-5 mt-5">
+                    <h1 class="border-left border-white pl-sm-4 mx-md-5">
+                        FIRST AUTOMATED AIRCRAFT PARKING SOFTWARE
+                    </h1>
+                    <span class="pl-sm-4">
+                        <a href="#how-it-works">
+                            <button
+                                class="button button-green mx-auto ml-md-5 my-5"
+                            >
+                                See how it works
+                            </button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Section 2: HOW IT WORKS -->
+            <section id="how-it-works">
+                <div class="container">
+                    <h5 id="how-it-works-header">
+                        We've created a way for airports to finally manage their
+                        aprons. Remote aircraft parking bookings are now
+                        seamless, with immediate payments, real-time reporting
+                        and data analytics.
+                    </h5>
+                <div id="figures">
+                    <figure class="sub-section" id="mobile-bookings">
+                        <img
+                            alt="Mobile Bookings"
+                            title="Mobile Bookings"
+                            src="/assets/home/mobile-bookings-fdec273154e28bc3779f44b3bf9fc94470551d6cc22c59f86868a819500919fd.svg"
+                        />
+                        <figcaption>
+                            <h2>Mobile Bookings</h2>
+                            <h3>
+                                Our user-friendly interface allows for a quick
+                                3-step booking process.
+                            </h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="sub-section" id="instant-payments">
+                        <img
+                            alt="Instant Payments"
+                            title="Instant Payments"
+                            src="/assets/home/instant-payments-132e2f145db3d63688dd624dcb1da82636a72a6d92b40210956f7bd260074902.svg"
+                        />
+                        <figcaption>
+                            <h2>Instant Payments</h2>
+                            <h3>
+                                No more waiting 30+ days. GoApron uses automatic
+                                payments to eliminate delayed revenue.
+                            </h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="sub-section" id="real-time-reporting">
+                        <img
+                            alt="Real-Time Reporting"
+                            title="Real-Time Reporting"
+                            src="/assets/home/real-time-reporting-a71a9994efc2bdd69dd9976853900ac8de439abd913a668be4228f59087294e5.svg"
+                        />
+                        <figcaption>
+                            <h2>Real-Time Reporting</h2>
+                            <h3>
+                                No more manual data entry, no more unorganized data.
+                                All of your foundational reporting right at your
+                                fingertips.
+                            </h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="sub-section" id="trend-analysis">
+                        <img
+                            alt="Trend Analysis"
+                            title="Trend Analysis"
+                            src="/assets/home/trend-analysis-a03709ef93f75b8cf9f539864221f247f504288a4fb2eb90c77f04525eae5afe.svg"
+                        />
+                        <figcaption>
+                            <h2>Trend Analysis</h2>
+                            <h3>
+                                GoApron collects and reports key data to help you
+                                with your everyday decisions.
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Section 3: CONTACT US -->
+            <section id="contact-us">
+                <div class="container">
+                    <form
+                        class="new_lead"
+                        id="new_lead"
+                        action="/leads"
+                        accept-charset="UTF-8"
+                        method="post"
+                    >
+                        <input
+                            type="hidden"
+                            name="authenticity_token"
+                            value="PZ9j9mHcvGCpjqYPmMsVrhizA/si/CtYFmrAAaET5w7SzlIbzCB5eteEDSjbMtgDGkJIZ+qgZ2NPtKreHfgClQ=="
+                        />
+                        <fieldset>
+                            <legend>Get in Touch</legend>
+                            <div class="field-group">
+                                <div class="field">
+                                    <input
+                                        required="required"
+                                        placeholder="Name"
+                                        type="text"
+                                        name="lead[name]"
+                                        id="lead_name"
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                        placeholder="Organization"
+                                        type="text"
+                                        name="lead[organization]"
+                                        id="lead_organization"
+                                    />
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field">
+                                    <input
+                                        required="required"
+                                        placeholder="Email"
+                                        type="email"
+                                        name="lead[email]"
+                                        id="lead_email"
+                                    />
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field"><textarea
+                                        placeholder="Message"
+                                        name="lead[message]"
+                                        id="lead_message"
+                                        value=""
+                                    ></textarea>
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button id="contact-submit" type="submit">
+                                    Submit
+                                </button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <!-- Section 4: FOOTER -->
+            <footer>
+                <div class="container pt-5 text-right">
+                    <a href="/">© 2019 GoApron, Inc.</a>
+                </div>
+            </footer>
+        </main>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            // function setHeight() {
+            //     $("body").height($(document).height());
+            // }
+            // $(window).resize(setHeight());
+            // $(document).ready(setHeight());
+        </script>
+    </body>
+</html>
